@@ -86,9 +86,12 @@ header {
   height: clamp(140px, 20vh, 180px);
   padding-top: 15px;
   padding-bottom: 15px;
-  background: var(--bg-color);
-  background: linear-gradient(to bottom, var(--bg-color), var(--bg-color2));
+  background: var(--bg-color);  
   color: var(--text-color2);
+}
+
+body:not(.home) header {
+  background: linear-gradient(to bottom, var(--bg-color), var(--bg-color2));
 }
 
 footer {
@@ -96,8 +99,11 @@ footer {
   padding-top: 15px;
   padding-bottom: 15px;    
   background-color: var(--bg-color);
-  background: linear-gradient(to bottom, var(--bg-color), var(--bg-color2));
   color: var(--text-color2);
+}
+
+body:not(.home) footer {
+  background: linear-gradient(to bottom, var(--bg-color), var(--bg-color2));
 }
 
 main {
