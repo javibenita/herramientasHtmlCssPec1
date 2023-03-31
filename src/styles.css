@@ -39,6 +39,8 @@ h1 {
   h1 {
     font-size: 2.25rem;
     margin-bottom: 1rem;
+  }
+  header h1 {
     white-space: nowrap;
     overflow-x: hidden;
   }
@@ -78,7 +80,6 @@ a {
 }
 
 a:hover {
-  /*border: none;*/
   color: var(--contrast-color);
 }
 
@@ -248,12 +249,12 @@ body.home header {
 }
 
 body.home footer {
-  height: 10vh;
+  height: 15vh;
 }
 
 body.home main {
   padding-top: 10vh;
-  height: 70vh;
+  height: 65vh;
 }
 
 body.home h1 {
@@ -340,20 +341,6 @@ body.puntos main h1{
     padding-right: 40px;
   }
 }
-/*@media (max-width: 600px) {
-  .pmcard > div:nth-child(1) {
-    flex: 1 100%;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  .pmcard > div:nth-child(2) {
-    flex: 1 100%;
-    text-align: center;
-  }
-  .pmcard > div:nth-child(3) {
-    flex: 1 100%;
-  }
-}*/
 
 .pmcard:first-of-type {
   margin-top:2rem;
@@ -497,10 +484,6 @@ body.detalle .multicard > div{
   left:7px;
   text-align:left
 }
-/*.mapMarkText > span{
-  padding:1px;
-  float:left
-}*/
 
 /* ENLACES */
 
