@@ -258,7 +258,7 @@ body.home main {
 }
 
 body.home h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -269,7 +269,7 @@ body.home main p {
 
 @media (min-width: 800px) {
   body.home h1 {
-      font-size: 5rem;
+      font-size: 4rem;
   }
   body.home main p {
       font-size: 1.5rem;
@@ -278,7 +278,7 @@ body.home main p {
 
 @media (min-width: 1200px) {
   body.home h1 {
-      font-size: 7rem;
+      font-size: 6rem;
   }
   body.home main p {
       font-size: 2rem;
