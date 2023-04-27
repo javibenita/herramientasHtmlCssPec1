@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "PEC Herramientas HTML y CSS",
   "source": "src/index.html",
-  "browserslist": "> 0.5%, last 2 versions",
+  "browserslist": "> 0.5%, since 2010, not dead",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "parcel:dev": "parcel",
